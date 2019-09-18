@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_above="@+id/common_center_iv"
+        android:src="@mipmap/no_network"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/common_center_iv"
+        android:layout_above="@+id/common_center_line"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        tools:text="网络连接异常 请连接成功后重试"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/common_center_line"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <com.example.archer.atmall.shop.custom.MyTextView
+        android:id="@+id/id_common_loading_tv"
+        android:layout_below="@+id/common_center_line"
+        android:text="点击重试"
+        android:textSize="9sp"
+        android:gravity="center"
+        app:normalColor="#b49dda"
+        app:pressColor="#dfbfef"
+        app:radius="5dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
