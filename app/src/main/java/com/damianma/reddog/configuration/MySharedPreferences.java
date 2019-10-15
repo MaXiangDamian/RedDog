@@ -9,7 +9,7 @@ public class MySharedPreferences {
     public static SharedPreferences.Editor edit;
     private static SharedPreferences sp;
     public static void init(Context context){
-        sp = context.getSharedPreferences("tianrun", Context.MODE_PRIVATE);
+        sp = context.getSharedPreferences("reddog", Context.MODE_PRIVATE);
         edit = sp.edit();
     }
 

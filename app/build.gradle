@@ -36,4 +36,15 @@ dependencies {
     //沉浸式状态栏依赖
     implementation 'com.jaeger.statusbarutil:library:1.4.0'
 
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    //空祖对话框
+    implementation 'com.kongzue.dialog:dialog:2.2.3'
+
+    //动态权限申请库
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.1.0'
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.1.0"
+
 }
