@@ -13,3 +13,4 @@
 .externalNativeBuild
 *.apk
 *.apk
+app/release/app-release.apk
